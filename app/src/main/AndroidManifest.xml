@@ -25,7 +25,6 @@
             android:name=".EdibleActivity"
             android:label="Edible Mushroom" />
         <activity android:name=".OysterActivity" />
-        <activity android:name=".DawaActivity" />
         <activity android:name=".GoldenoysterActivity" />
         <activity android:name=".PineActivity" />
         <activity android:name=".AboutActivity" />
