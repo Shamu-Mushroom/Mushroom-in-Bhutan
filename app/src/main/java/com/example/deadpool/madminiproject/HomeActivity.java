@@ -173,7 +173,7 @@ public class HomeActivity extends AppCompatActivity
                 break;
 
             case R.id.home_made:
-                intent = new Intent(this, OysterActivity.class);
+                intent = new Intent(this, HomemadeActivity.class);
                 startActivity(intent);
                 break;
 

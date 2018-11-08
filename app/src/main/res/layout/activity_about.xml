@@ -37,7 +37,6 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#383153"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -64,8 +63,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
-                            android:text="About Me"
-                            android:textColor="#fff"
+                            android:text="About Us"
                             android:textSize="20dp" />
 
                         <TextView
@@ -73,8 +71,7 @@
                             android:layout_height="wrap_content"
                             android:paddingRight="10dp"
                             android:paddingLeft="20dp"
-                            android:text="I am a very simple and a cute girl love to take selfie and wish to convert it in my profession, I really like to hangout with people."
-                            android:textColor="#c7c6c6"
+                            android:text="We the team are developing Android App for our Mini Project. We are developing app for Mushroom in Bhutan.Basically, our main scope is to give information about types of mushroom in Bhutan."
                             android:textSize="16dp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -104,7 +101,6 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
                             android:text="Photos"
-                            android:textColor="#fff"
                             android:textSize="20dp" />
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -195,7 +191,6 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
                             android:text="Location"
-                            android:textColor="#fff"
                             android:textSize="20dp" />
 
                         <TextView
@@ -204,7 +199,6 @@
                             android:paddingLeft="20dp"
                             android:paddingRight="10dp"
                             android:text="Lives in CST, From Trashigang· Also Lived in Thimphu."
-                            android:textColor="#c7c6c6"
                             android:textSize="16dp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -234,7 +228,6 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
                             android:text="Contact Me"
-                            android:textColor="#fff"
                             android:textSize="20dp" />
 
                         <TextView
@@ -243,7 +236,6 @@
                             android:paddingRight="10dp"
                             android:paddingLeft="20dp"
                             android:text="Email: dawanyuethyuetshering111@gmail.com\nPhone: +975-17980893"
-                            android:textColor="#c7c6c6"
                             android:textSize="16dp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -272,7 +264,6 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
                             android:text="Contact Me"
-                            android:textColor="#fff"
                             android:textSize="20dp" />
 
                         <TextView
@@ -281,7 +272,6 @@
                             android:paddingRight="10dp"
                             android:paddingLeft="20dp"
                             android:text="Email: dawanyuethyuetshering111@gmail.com\nPhone: +975-17980893"
-                            android:textColor="#c7c6c6"
                             android:textSize="16dp" />
                     </LinearLayout>
                 </LinearLayout>

@@ -30,9 +30,10 @@
         <activity android:name=".AboutActivity" />
         <activity
             android:name=".NonedibleActivity"
-            android:label="Non-edible Mushroom"/>
+            android:label="Non-edible Mushroom" />
         <activity android:name=".LyophyllumActivity" />
-        <activity android:name=".FactsActivity"></activity>
+        <activity android:name=".FactsActivity" />
+        <activity android:name=".HomemadeActivity"></activity>
     </application>
 
 </manifest>
