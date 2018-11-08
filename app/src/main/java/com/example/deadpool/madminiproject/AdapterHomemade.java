@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -45,7 +44,6 @@ public class AdapterHomemade extends RecyclerView.Adapter<AdapterHomemade.MyView
         myViewHolder.textView2.setText(modelHomemade.getDzo_mname());
 
         glide.load(modelHomemade.getPicture()).into(myViewHolder.imageView);
-
     }
 
     @Override

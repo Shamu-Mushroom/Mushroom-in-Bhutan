@@ -32,7 +32,7 @@ public class EdibleActivity extends AppCompatActivity {
         //listView
         title = new String[]{"Pine", "Lyophyllum", "Golden Oyster", "Shiitake", "Oyster", "Enoki", "Portabello", "Porcini", "Morel"};
         description = new String[]{"སངས་རྒྱས་ཤ་མོང།", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "Shiitake detail...", "རྣ་སྐྱེས་ཤ་མོང་།","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
-        icon = new int[]{R.drawable.pine, R.drawable.lyophyllum_1, R.drawable.oyster_1, R.drawable.shiitake, R.drawable.oyster, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
+        icon = new int[]{R.drawable.pine, R.drawable.lyophyllum_1, R.drawable.oyster_1, R.drawable.shiitake, R.drawable.oyster_1, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
 
         listView = findViewById(R.id.listView);
 
