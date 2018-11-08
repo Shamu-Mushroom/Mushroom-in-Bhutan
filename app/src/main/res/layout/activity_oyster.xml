@@ -59,7 +59,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:textAppearanceLarge"
                     android:layout_marginTop="10dp"
-                    android:text="Oyster Mushroom/རྣ་སྐྱེས་ཤ་མོང་།"
+                    android:text="Oyster / རྣ་སྐྱེས་ཤ་མོང་།"
                     android:textStyle="bold"
                     android:padding="10dp"
                     android:layout_marginBottom="12dp"
@@ -110,7 +110,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceSmall"
-                        android:text="Lignicolous and gregarious." />
+                        android:text="Lignicolous and gregarious."
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <TextView
@@ -136,7 +137,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceSmall"
-                        android:text="3-12 cm wide, convex, becoming fan-shaped or shell-shaped, semi-circular or plane with a small depression at the centre, surface smooth and pale brown to dark brown." />
+                        android:text="3-12 cm wide, convex, becoming fan-shaped or shell-shaped, semi-circular or plane with a small depression at the centre, surface smooth and pale brown to dark brown."
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -155,7 +157,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceSmall"
-                        android:text="Decurrent gills, close, whitish or with a grey tinge. " />
+                        android:text="Decurrent gills, close, whitish or with a grey tinge. "
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -173,7 +176,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceSmall"
-                        android:text="Rudimentary or absent." />
+                        android:text="Rudimentary or absent."
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -191,7 +195,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceSmall"
-                        android:text="Think and white." />
+                        android:text="Think and white."
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -210,7 +215,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:textAppearanceSmall"
-                        android:text="Whitish to greyish." />
+                        android:text="Whitish to greyish."
+                        android:padding="5dp"/>
                 </LinearLayout>
 
             </LinearLayout>

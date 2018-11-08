@@ -45,9 +45,7 @@ public class AdapterFeed extends RecyclerView.Adapter<AdapterFeed.MyViewHolder> 
         final ModelFeed modelFeed = modelFeedArrayList.get(position);
 
         holder.tv_name.setText(modelFeed.getName());
-        holder.tv_time.setText(modelFeed.getTime());
-        holder.tv_likes.setText(String.valueOf(modelFeed.getLikes()));
-        holder.tv_comments.setText(modelFeed.getComments() + " comments");
+        holder.tv_date.setText(modelFeed.getDate());
         holder.tv_status.setText(modelFeed.getStatus());
 
         glide.load(modelFeed.getPropic()).into(holder.imgView_proPic);
@@ -67,7 +65,7 @@ public class AdapterFeed extends RecyclerView.Adapter<AdapterFeed.MyViewHolder> 
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tv_name, tv_time, tv_likes, tv_comments, tv_status;
+        TextView tv_name, tv_date, tv_status;
         ImageView imgView_proPic, imgView_postPic;
 
         public MyViewHolder(View itemView) {
@@ -77,9 +75,7 @@ public class AdapterFeed extends RecyclerView.Adapter<AdapterFeed.MyViewHolder> 
             imgView_postPic = (ImageView) itemView.findViewById(R.id.imgView_postPic);
 
             tv_name = (TextView) itemView.findViewById(R.id.tv_name);
-            tv_time = (TextView) itemView.findViewById(R.id.tv_time);
-            tv_likes = (TextView) itemView.findViewById(R.id.tv_like);
-            tv_comments = (TextView) itemView.findViewById(R.id.tv_comment);
+            tv_date = (TextView) itemView.findViewById(R.id.tv_date);
             tv_status = (TextView) itemView.findViewById(R.id.tv_status);
         }
     }

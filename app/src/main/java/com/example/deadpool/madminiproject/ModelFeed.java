@@ -6,18 +6,16 @@ package com.example.deadpool.madminiproject;
 
 public class ModelFeed {
 
-    int id, likes, comments, propic, postpic;
-    String name, time, status;
+    int id, propic, postpic;
+    String name, status, date;
 
-    public ModelFeed(int id, int likes, int comments, int propic, int postpic, String name, String time, String status) {
+    public ModelFeed(int id, int propic, int postpic, String name, String status, String date) {
         this.id = id;
-        this.likes = likes;
-        this.comments = comments;
         this.propic = propic;
         this.postpic = postpic;
         this.name = name;
-        this.time = time;
         this.status = status;
+        this.date = date;
     }
 
     public int getId() {
@@ -26,22 +24,6 @@ public class ModelFeed {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getLikes() {
-        return likes;
-    }
-
-    public void setLikes(int likes) {
-        this.likes = likes;
-    }
-
-    public int getComments() {
-        return comments;
-    }
-
-    public void setComments(int comments) {
-        this.comments = comments;
     }
 
     public int getPropic() {
@@ -68,19 +50,19 @@ public class ModelFeed {
         this.name = name;
     }
 
-    public String getTime() {
-        return time;
-    }
-
-    public void setTime(String time) {
-        this.time = time;
-    }
-
     public String getStatus() {
         return status;
     }
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }

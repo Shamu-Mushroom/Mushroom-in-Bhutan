@@ -23,7 +23,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Home Made Mushroom"
-                android:textSize="18sp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
                 android:textColor="@color/colorBlack"/>
 
         </android.support.v7.widget.Toolbar>

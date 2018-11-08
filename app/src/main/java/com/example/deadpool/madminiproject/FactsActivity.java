@@ -36,25 +36,33 @@ public class FactsActivity extends AppCompatActivity {
 
     public void populateRecyclerView() {
 
-        ModelFeed modelFeed = new ModelFeed(1, 9, 2, R.drawable.ic_propic1, R.drawable.dawa_cover,
-                "Nyuethyue Tshering", "10/10/2018", "The cars we drive say a lot about us.");
+        ModelFeed modelFeed = new ModelFeed(1,R.drawable.ic_propic1, R.drawable.dawa_cover, "Dawa Nyuethyue Tshering",
+                "Do you love mushrooms? You're not alone.","10/11/2018");
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(2, 26, 6, R.drawable.ic_propic2, 0,
-                "Pema Loday", "15/10/2018", "Do you love mushrooms? You're not alone. People have been enjoying mushrooms since the Cave Man days. Did you know that the \"Iceman\" discovered in the Italian Alps in 1991 (and thought to have died 5 000 years ago) was carrying dried mushrooms with him?");
+        modelFeed = new ModelFeed(2, R.drawable.ic_propic2,0, "Pema Loday",
+                "Unfortunately, by default, DNS is usually slow and insecure. Your ISP, and anyone else listening in \n"+
+                        " on the Internet, can see every site you visit and every app you use — even if their content is encrypted." +
+                        " Creepily, some DNS providers sell data about your Internet activity or use it to target you with ads.","11/22/2019"
+                );
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(3, 17, 5, R.drawable.ic_propic3, R.drawable.img_post1,
-                "Tshering Gyeltshen", "15/10/2018", "That reflection!!!");
+        modelFeed = new ModelFeed(3, R.drawable.ic_propic3, R.drawable.img_post1,"Tshering","hello",
+                "12/12/1222");
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(4, 26, 6, R.drawable.ic_propic2, 0,
-                "Ugyen Lhamo", "15/10/2018", "Do you love mushrooms? You're not alone. People have been enjoying mushrooms since the Cave Man days. Did you know that the \"Iceman\" discovered in the Italian Alps in 1991 (and thought to have died 5 000 years ago) was carrying dried mushrooms with him?");
+        modelFeed = new ModelFeed(1,R.drawable.ic_propic1, R.drawable.dawa_cover, "Dawa Nyuethyue Tshering",
+                "Do you love mushrooms? You're not alone.","10/11/2018");
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(5, 17, 5, R.drawable.ic_propic3, R.drawable.img_post2,
-                "Karma Tashi", "15/10/2018", "That reflection!!!");
+        modelFeed = new ModelFeed(2, R.drawable.ic_propic2,0, "Pema Loday",
+                "Unfortunately, by default, DNS is usually slow and insecure. Your ISP, and anyone else listening in \n"+
+                        " on the Internet, can see every site you visit and every app you use — even if their content is encrypted." +
+                        " Creepily, some DNS providers sell data about your Internet activity or use it to target you with ads.","11/22/2019"
+        );
         modelFeedArrayList.add(modelFeed);
+
+        modelFeed = new ModelFeed(3, R.drawable.ic_propic3, R.drawable.img_post1,"Tshering","hello", "12/12/1222");
 
         adapterFeed.notifyDataSetChanged();
     }

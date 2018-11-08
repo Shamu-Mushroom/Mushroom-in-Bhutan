@@ -40,15 +40,6 @@
                 android:textColor="@color/black"
                 android:textSize="17sp" />
 
-            <TextView
-                android:id="@+id/tv_time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:text="11 hrs"
-                android:textColor="@color/grey"
-                android:textSize="13sp" />
-
         </LinearLayout>
 
     </RelativeLayout>
@@ -85,29 +76,8 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp">
 
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="15dp"
-                android:layout_height="15dp"
-                android:src="@drawable/ic_share_black" />
-
-            <TextView
-                android:id="@+id/tv_like"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:text="18"
-                android:textColor="@color/black"
-                android:textSize="13sp" />
-
-        </LinearLayout>
-
         <TextView
-            android:id="@+id/tv_comment"
+            android:id="@+id/tv_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
