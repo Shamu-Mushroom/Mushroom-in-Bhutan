@@ -13,7 +13,7 @@ public class PhallusActivity extends AppCompatActivity {
 
     CarouselView carouselView;
 
-    int[] sampleImages = {R.drawable.phallus_1, R.drawable.oyster_2, R.drawable.oyster_3,};
+    int[] sampleImages = {R.drawable.phallus_1, R.drawable.oyster_2, R.drawable.oyster_3};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".HomushroomActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home-made Mushroom"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorBlack"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="@color/colorOffBlack" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Starting a Mushroom Farming Business in 6 Easy Steps Growing Oyster Mushrooms"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="By Craig Wallin"
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. Get your spawn and substrate"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="You’ll need a spawn to start the culture. You can produce your own spawn using a sterile culture, or you can buy ready-to-inoculate spawn, which are carried by suppliers. Producing your own can be cheaper in the long run, but the start-up costs can be high, so chances are buying the ready-to-inoculate spawn is the way to go for you."
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp" >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2. Prepare the substrate"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="First, chop the straw into short pieces. Next, wet the straw. Now it’s time to heat the straw in boiling water. Continue boiling for half an hour and then remove the straw and drain it. Next, spread out the straw on a clean surface and let it cool down."
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. Pack the plastic bags"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="Now it’s time to pack plastic bags with the straw and spawn. Pack two or three inches of straw into the plastic bag and then lightly sprinkle the spawn on top. Repeat this until you’ve almost filled the bag, close the top and poke holes in the bag."
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. Incubation"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="Now it’s time for incubation. Keep the growing area at around 78 degrees F. Places the bags on a shelving unit. Remember to stop any threats of natural light getting into the room. Cover windows and cracks. Use a red “darkroom” light when you need to check on your bags. When you start to notice tiny pinhead mushrooms near the air holes in your bag, then you’re ready to move on to the next step."
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. Fruiting"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="For your fruiting room, you need a high level of humidity. The temperature will need to be 65 to 70 degrees F. Unlike the incubation room, you’ll actually need a lot of natural light—at least 12 hours a day. To shock your mycelium, which will force it into fruiting, move the bags to a cool place for a day, such as a basement or other cool place, and then move them back to the fruiting room. Next, cut away the bag, which allows mushroom growth to take place."
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. Harvest"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:text="Just before your mushroom caps are fully uncurled, that’s when it’s time to harvest. To do so, twist the stem off as near to the growing block as you are able to. You’ve now harvested your mushrooms."
+                        android:padding="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

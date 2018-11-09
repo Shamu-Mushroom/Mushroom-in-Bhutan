@@ -37,7 +37,8 @@
         <activity
             android:name=".PrequationActivity"
             android:label="Prequation Edible Mushroom" />
-        <activity android:name=".PhallusActivity"></activity>
+        <activity android:name=".PhallusActivity" />
+        <activity android:name=".HomushroomActivity"></activity>
     </application>
 
 </manifest>

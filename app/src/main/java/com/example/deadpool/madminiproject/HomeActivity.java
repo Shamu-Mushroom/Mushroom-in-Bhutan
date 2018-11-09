@@ -112,7 +112,7 @@ public class HomeActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            Intent intent = new Intent(getApplicationContext(), OysterActivity.class);
+            Intent intent = new Intent(getApplicationContext(), HomemadeActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_help_info) {
@@ -174,7 +174,7 @@ public class HomeActivity extends AppCompatActivity
                 break;
 
             case R.id.home_made:
-                intent = new Intent(this, HomemadeActivity.class);
+                intent = new Intent(this, HomushroomActivity.class);
                 startActivity(intent);
                 break;
 
