@@ -27,7 +27,7 @@
         <activity android:name=".OysterActivity" />
         <activity android:name=".GoldenoysterActivity" />
         <activity android:name=".PineActivity" />
-        <activity android:name=".AboutActivity" />
+        <activity android:name=".DawaActivity" />
         <activity
             android:name=".NonedibleActivity"
             android:label="Non-edible Mushroom" />
@@ -39,7 +39,11 @@
             android:label="Prequation Edible Mushroom" />
         <activity android:name=".PhallusActivity" />
         <activity android:name=".HomushroomActivity" />
-        <activity android:name=".TeamActivity"></activity>
+        <activity android:name=".TeamActivity" />
+        <activity android:name=".PemaActivity" />
+        <activity android:name=".KarmaActivity" />
+        <activity android:name=".TsheringActivity" />
+        <activity android:name=".KwangchukActivity"></activity>
     </application>
 
 </manifest>

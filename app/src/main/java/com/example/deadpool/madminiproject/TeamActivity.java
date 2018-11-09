@@ -42,23 +42,23 @@ public class TeamActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()){
             case R.id.dawa:
-                intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, DawaActivity.class);
                 startActivity(intent);
                 break;
             case R.id.pema:
-                intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, PemaActivity.class);
                 startActivity(intent);
                 break;
             case R.id.karma:
-                intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, KarmaActivity.class);
                 startActivity(intent);
                 break;
             case R.id.tshering:
-                intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, TsheringActivity.class);
                 startActivity(intent);
                 break;
             case R.id.karmaWangchuk:
-                intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, KwangchukActivity.class);
                 startActivity(intent);
                 break;
         }

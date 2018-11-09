@@ -19,16 +19,11 @@
             android:id="@+id/toolbarTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About Us"
+            android:text="About Our Team"
             android:textSize="18sp"
             android:textColor="@color/colorBlack"/>
 
     </android.support.v7.widget.Toolbar>
-
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="@color/colorOffBlack" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -51,6 +46,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="About Developers"
+                        android:gravity="center"
                         android:textStyle="bold"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:padding="10dp"/>
@@ -242,6 +238,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Guide / Module Tutor"
+                        android:gravity="center"
                         android:textStyle="bold"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:padding="10dp"/>
@@ -276,13 +273,13 @@
                                     android:layout_height="wrap_content"
                                     android:textStyle="bold"
                                     android:layout_marginTop="5dp"
-                                    android:text="Karma Wangchuk"
+                                    android:text="Mr. Karma Wangchuk"
                                     android:padding="10dp"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textStyle="bold"
-                                    android:text="Developer"
+                                    android:text="Mentor"
                                     android:padding="10dp"
                                     android:layout_marginBottom="10dp"/>
                             </LinearLayout>

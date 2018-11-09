@@ -93,8 +93,8 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
+        if (id == R.id.action_about_team) {
+            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
             startActivity(intent);
             return true;
         }
@@ -144,7 +144,7 @@ public class HomeActivity extends AppCompatActivity
             return true;
 
         }else if (id == R.id.nav_about) {
-            Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
             startActivity(intent);
 
         }

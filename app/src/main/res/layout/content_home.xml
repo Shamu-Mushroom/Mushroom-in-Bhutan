@@ -43,7 +43,8 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Edible"/>
+                    android:text="Edible"
+                    android:textAppearance="?android:textAppearanceSmall"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -81,6 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceSmall"
                     android:layout_marginTop="10dp"
                     android:text="Non-edible"/>
                 <View
@@ -129,6 +131,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
+                    android:textAppearance="?android:textAppearanceSmall"
                     android:layout_marginTop="10dp"
                     android:text="Edible Precaution"/>
                 <View
@@ -173,6 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Home Made"
+                    android:textAppearance="?android:textAppearanceSmall"
                     android:textStyle="bold" />
 
                 <View
@@ -235,6 +239,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Check facts of mushroom"
+                    android:textAppearance="?android:textAppearanceSmall"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
             </LinearLayout>

@@ -56,7 +56,7 @@ public class PrequationActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
+            Intent intent = new Intent(getApplicationContext(), DawaActivity.class);
             startActivity(intent);
         }
         else if (id == R.id.action_contact){
