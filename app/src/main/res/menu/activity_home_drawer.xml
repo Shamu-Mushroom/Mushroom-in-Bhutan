@@ -12,11 +12,11 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="FAQ" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_help_info"
+            android:icon="@drawable/ic_help"
+            android:title="Help and info" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/settings"
@@ -35,7 +35,7 @@
                 android:title="Feedback" />
             <item
                 android:id="@+id/nav_about"
-                android:icon="@drawable/ic_group_black"
+                android:icon="@drawable/ic_about"
                 android:title="About Us" />
         </menu>
     </item>

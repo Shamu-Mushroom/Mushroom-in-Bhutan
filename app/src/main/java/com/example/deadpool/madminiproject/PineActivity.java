@@ -13,7 +13,7 @@ public class PineActivity extends AppCompatActivity {
 
     CarouselView carouselView;
 
-    int[] sampleImages = {R.drawable.pine_1, R.drawable.pine_2, R.drawable.pine_3, R.drawable.pine_4, R.drawable.pine, R.drawable.pine_6};
+    int[] sampleImages = {R.drawable.pine_1, R.drawable.pine_02, R.drawable.pine_3, R.drawable.pine_4, R.drawable.pine_03, R.drawable.pine_6};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

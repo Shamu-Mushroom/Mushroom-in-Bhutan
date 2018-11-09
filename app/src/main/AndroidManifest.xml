@@ -33,7 +33,10 @@
             android:label="Non-edible Mushroom" />
         <activity android:name=".LyophyllumActivity" />
         <activity android:name=".FactsActivity" />
-        <activity android:name=".HomemadeActivity"></activity>
+        <activity android:name=".HomemadeActivity" />
+        <activity
+            android:name=".PrequationActivity"
+            android:label="Prequation Edible Mushroom" ></activity>
     </application>
 
 </manifest>

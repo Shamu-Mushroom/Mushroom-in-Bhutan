@@ -23,7 +23,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Golden oyster Mushroom"
-                android:textSize="18sp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
                 android:textColor="@color/colorBlack"/>
 
         </android.support.v7.widget.Toolbar>
@@ -56,69 +57,53 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="22sp"
                     android:layout_marginTop="10dp"
                     android:text="Golden Oyster Mushroom/སི་ལི་ཤ་མོང་།"
+                    android:textAppearance="?android:textAppearanceLarge"
                     android:textStyle="bold"
                     android:padding="8dp"
                     android:layout_marginBottom="10dp"
                     />
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
 
-                    <LinearLayout
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true">
+                        android:text="Pleurotus cornucopiae v. citrinopiliatus"
+                       android:textAppearance="?android:textAppearanceSmall"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Nu.499.00"
-                            android:textSize="19sp"/>
+                            android:text="Local Name: "
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="10dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Pleurotus cornucopiae v. citrinopiliatus"
-                            android:textSize="13sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Local Name: No local Name"
-                            android:textSize="13sp"
+                            android:text="སི་ལི་ཤ་མོང་།"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:padding="5dp"
                             android:layout_marginBottom="10dp"/>
 
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentEnd="true">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="4.5 of 5 stars"
-                            android:textSize="15sp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="5604 ratings"
-                            android:textSize="13sp"
-                            android:layout_marginBottom="10dp"/>
-
-                    </LinearLayout>
-
-                </RelativeLayout>
+                </LinearLayout>
 
                 <View
                     android:layout_width="wrap_content"
@@ -129,7 +114,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Description:"
-                    android:textSize="20sp"
+                   android:textAppearance="?android:textAppearanceMedium"
                     android:textStyle="bold"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp" />
@@ -143,12 +128,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Cap: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="3-12 cm wide, convex, becoming fan-shaped or shell-shaped, semi-circular or plane with a small depression at the centre, surface smooth and pale brown to dark brown." />
+                        android:text="3-12 cm wide, convex, becoming fan-shaped or shell-shaped, semi-circular or plane with a small depression at the centre, surface smooth and pale brown to dark brown."
+                        android:textAppearance="?android:textAppearanceSmall" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -160,13 +146,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hymenophore: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Decurrent gills, close, whitish or with a grey tinge. " />
+                        android:text="Decurrent gills, close, whitish or with a grey tinge. "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -178,12 +166,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Stem: "
-                        android:textSize="15sp"
+                       android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rudimentary or absent." />
+                        android:text="Rudimentary or absent."
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -195,12 +185,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Flesh: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Think and white." />
+                        android:text="Think and white."
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -212,13 +204,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Spore Print: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Whitish to greyish." />
+                        android:text="Whitish to greyish."
+                        android:textAppearance="?android:textAppearanceSmall"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -229,13 +222,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Location: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Sub-tropical region of Bhutan." />
+                        android:text="Sub-tropical region of Bhutan."
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
             </LinearLayout>

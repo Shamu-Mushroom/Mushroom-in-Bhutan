@@ -63,7 +63,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
-                            android:text="About Us"
+                            android:text="Dawa Nyuethyue Tshering"
                             android:textSize="20dp" />
 
                         <TextView
@@ -78,7 +78,45 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="240dp"
+                    android:layout_height="100dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.vipul.hp_hp.timelineview.TimelineView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="25dp"
+                        app:line="@color/colorLine"
+                        app:line_size="1dp"
+                        app:marker="@drawable/ic_school"
+                        app:marker_size="25dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:text="Department"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="10dp"
+                            android:paddingLeft="20dp"
+                            android:text="BE Information Technology"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -107,34 +145,8 @@
                             android:layout_height="wrap_content"
                             android:paddingLeft="20dp"
                             android:orientation="vertical"
-                            android:layout_gravity="center"
-                            >
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                >
-                                <ImageView
-                                    android:layout_width="50dp"
-                                    android:layout_height="75dp"
-                                    android:layout_margin="5dp"
-                                    android:src="@drawable/image1"/>
-                                <ImageView
-                                    android:layout_width="50dp"
-                                    android:layout_height="75dp"
-                                    android:layout_margin="5dp"
-                                    android:src="@drawable/image2"/>
-                                <ImageView
-                                    android:layout_width="50dp"
-                                    android:layout_height="75dp"
-                                    android:layout_margin="5dp"
-                                    android:src="@drawable/image3"/>
-                                <ImageView
-                                    android:layout_width="50dp"
-                                    android:layout_height="75dp"
-                                    android:layout_margin="5dp"
-                                    android:src="@drawable/image4"/>
-                            </LinearLayout>
+                            android:layout_gravity="center">
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -203,42 +215,6 @@
                     </LinearLayout>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <com.vipul.hp_hp.timelineview.TimelineView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:paddingLeft="25dp"
-                        app:line="@color/colorLine"
-                        app:line_size="1dp"
-                        app:marker="@drawable/contact_timeline"
-                        app:marker_size="25dp" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingLeft="20dp"
-                            android:text="Contact Me"
-                            android:textSize="20dp" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingRight="10dp"
-                            android:paddingLeft="20dp"
-                            android:text="Email: dawanyuethyuetshering111@gmail.com\nPhone: +975-17980893"
-                            android:textSize="16dp" />
-                    </LinearLayout>
-                </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="100dp"

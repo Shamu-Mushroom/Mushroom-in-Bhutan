@@ -115,7 +115,7 @@ public class HomeActivity extends AppCompatActivity
             Intent intent = new Intent(getApplicationContext(), OysterActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_help_info) {
             Intent intent = new Intent(HomeActivity.this, OysterActivity.class);
             startActivity(intent);
 
@@ -131,15 +131,16 @@ public class HomeActivity extends AppCompatActivity
             String shareSub ="Your subject here";
             intent.putExtra(Intent.EXTRA_SUBJECT,shareSub);
             intent.putExtra(Intent.EXTRA_TEXT,shareBody);
-            startActivity(Intent.createChooser(intent, "Share using"));
+            startActivity(Intent.createChooser(intent, "Share via"));
 
         } else if (id == R.id.nav_feedback) {
-            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-            sharingIntent.setType("text/plain");
-            String shareBody = "Here is the share content body";
-            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
-            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
-            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+            Intent Email = new Intent(Intent.ACTION_SEND);
+            Email.setType("text/email");
+            Email.putExtra(Intent.EXTRA_EMAIL, new String[] { "dawanyuethyuetshering111@gmail.com" });
+            Email.putExtra(Intent.EXTRA_SUBJECT, "Feedback");
+            Email.putExtra(Intent.EXTRA_TEXT, "Write body here" + "");
+            startActivity(Intent.createChooser(Email, "Send Feedback:"));
+            return true;
 
         }else if (id == R.id.nav_about) {
             Intent intent = new Intent(getApplicationContext(), AboutActivity.class);
@@ -168,7 +169,7 @@ public class HomeActivity extends AppCompatActivity
                 break;
 
             case R.id.ediable_pre:
-                intent = new Intent(this, PineActivity.class);
+                intent = new Intent(this, PrequationActivity.class);
                 startActivity(intent);
                 break;
 

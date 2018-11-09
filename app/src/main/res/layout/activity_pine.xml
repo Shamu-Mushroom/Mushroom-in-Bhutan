@@ -23,7 +23,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Pine Mushroom"
-                android:textSize="18sp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
                 android:textColor="@color/colorBlack"/>
 
         </android.support.v7.widget.Toolbar>
@@ -59,71 +60,42 @@
                     android:textSize="22sp"
                     android:layout_marginTop="10dp"
                     android:text="Pine Mushroom/སངས་རྒྱས་ཤ་མོང།"
+                    android:textAppearance="?android:textAppearanceLarge"
                     android:textStyle="bold"
                     android:padding="8dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="12dp"
                     />
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
 
-                    <LinearLayout
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Nu.499.00"
-                            android:textSize="19sp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Tricholoma matsutake"
-                            android:textSize="13sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Local Name: No local Name"
-                            android:textSize="13sp"
-                            android:layout_marginBottom="10dp"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentEnd="true">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="4.5 of 5 stars"
-                            android:textSize="15sp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="5604 ratings"
-                            android:textSize="13sp"
-                            android:layout_marginBottom="10dp"/>
-
-                    </LinearLayout>
-
-                </RelativeLayout>
+                        android:text="Tricholoma matsutake"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:layout_marginBottom="10dp"/>
+                </LinearLayout>
 
                 <View
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:background="@color/colorOffBlack" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description:"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -131,26 +103,23 @@
                     android:orientation="horizontal"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Habitat: "
-                        android:textSize="15sp"
+                       android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Terrestrial mainly in oak and spruce forest in Bhutan and scattered to gregarious." />
+                        android:text="Terrestrial mainly in oak and spruce forest in Bhutan and scattered to gregarious."
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"
+                        />
                 </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Description:"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="20dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -161,12 +130,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Cap: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5-20 cm in diameter convex becomes convex or nearly flat with maturity, brownish with enrolled margin. The surface of the cap is sticky and fibrillose. " />
+                        android:text="5-20 cm in diameter convex becomes convex or nearly flat with maturity, brownish with enrolled margin. The surface of the cap is sticky and fibrillose. "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -178,13 +149,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hymenophore: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gills attached to the stem, crowded, white, developing brown or reddish-brown stains and spots with age. When young the margin of the cap is attached to the stem with veil.  " />
+                        android:text="Gills attached to the stem, crowded, white, developing brown or reddish-brown stains and spots with age. When young the margin of the cap is attached to the stem with veil.  "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -196,12 +169,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Stem: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4-15 cm long and up to 5 cm thick, more or less equal, or with a slightly tapered base and concolor us with the cap. The surface of stem is also sticky and fibrillose. " />
+                        android:text="4-15 cm long and up to 5 cm thick, more or less equal, or with a slightly tapered base and concolor us with the cap. The surface of stem is also sticky and fibrillose. "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -213,12 +188,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Flesh: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="White, firm and not changing on exposure. " />
+                        android:text="White, firm and not changing on exposure. "
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -230,13 +207,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Spore Print: "
-                        android:textSize="15sp"
+                       android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="White." />
+                        android:text="White."
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -247,13 +226,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Location: "
-                        android:textSize="15sp"
+                        android:textAppearance="?android:textAppearanceMedium"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bumthang, Thimphu, Paro, Gasa(Laya and Lunana), Wamgdue, Haa and Tashigang(Yangneer)." />
+                        android:text="Bumthang, Thimphu, Paro, Gasa(Laya and Lunana), Wamgdue, Haa and Tashigang(Yangneer)."
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:padding="5dp"/>
                 </LinearLayout>
 
             </LinearLayout>

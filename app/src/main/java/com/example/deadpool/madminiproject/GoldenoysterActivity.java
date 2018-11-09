@@ -13,7 +13,7 @@ public class GoldenoysterActivity extends AppCompatActivity {
 
     CarouselView carouselView;
 
-    int[] sampleImages = {R.drawable.oyster_1, R.drawable.oyster_2, R.drawable.oyster_3, R.drawable.oyster_4, R.drawable.oyster_5, R.drawable.oyster_6};
+    int[] sampleImages = {R.drawable.goyester_1, R.drawable.goyester_2, R.drawable.goyester_3, R.drawable.goyester_4};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,4 +7,11 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="magic_mushroom">Whatever it is – animal, vegetable or mineral – the fungus known scientifically as
+        “Cordyceps Sinensis” and colloquially as yatsa gunbu, or “winter worm, summer grass”, has revolutionised the economy on the
+        Tibetan plateau, where for about a decade now there’s been a crazy rush every summer to get up to the high altitude areas
+        where it grows, dig out as many as possible and sell them for a small fortune into the Chinese medicine market.
+        Although prices vary from year to year, they’re said to have increased by something like 900% since 1997, and top
+        quality specimens can fetch up to $90,000 a kilo in the auction houses of Singapore and Hong Kong.</string>
 </resources>

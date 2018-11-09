@@ -38,7 +38,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="Dawa Nyuethyue Tshering"
                 android:textColor="@color/black"
-                android:textSize="17sp" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -83,7 +84,7 @@
             android:layout_alignParentRight="true"
             android:text="2/10/208"
             android:textColor="@color/black"
-            android:textSize="13sp" />
+            android:textAppearance="?android:textAppearanceSmall" />
 
     </RelativeLayout>
 
@@ -115,37 +116,7 @@
                     android:layout_height="18dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/ic_share_black" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:fontFamily="sans-serif-medium"
-                    android:text="Like"
-                    android:textColor="@color/black"
-                    android:textSize="13sp" />
-
-            </LinearLayout>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true">
-
-                <ImageView
-                    android:layout_width="18dp"
-                    android:layout_height="18dp"
-                    android:adjustViewBounds="true"
-                    android:scaleType="fitCenter"
-                    app:srcCompat="@drawable/ic_share_black"
+                    app:srcCompat="@drawable/ic_more"
                     tools:ignore="VectorDrawableCompat" />
 
                 <TextView
@@ -155,7 +126,7 @@
                     android:fontFamily="sans-serif-medium"
                     android:text="Read more"
                     android:textColor="@color/black"
-                    android:textSize="13sp" />
+                    android:textAppearance="?android:textAppearanceSmall" />
 
             </LinearLayout>
 
@@ -184,9 +155,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Share"
+                    android:text="Share with other"
                     android:textColor="@color/black"
-                    android:textSize="13sp" />
+                    android:textAppearance="?android:textAppearanceSmall"/>
 
             </LinearLayout>
 

@@ -13,19 +13,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-public class EdibleListViewAdapter extends BaseAdapter {
+public class PrequationListViewAdapter extends BaseAdapter {
     //variables
     Context mContext;
     LayoutInflater inflater;
-    List<Model> modelList;
-    ArrayList<Model> arrayList;
+    List<ModelPrequation> modelList;
+    ArrayList<ModelPrequation> arrayList;
 
     //constructor
-    public EdibleListViewAdapter(Context context, List<Model> modelList) {
+    public PrequationListViewAdapter(Context context, List<ModelPrequation> modelList) {
         mContext = context;
         this.modelList = modelList;
         inflater = LayoutInflater.from(mContext);
-        this.arrayList = new ArrayList<Model>();
+        this.arrayList = new ArrayList<ModelPrequation>();
         this.arrayList.addAll(modelList);
     }
 
@@ -145,7 +145,7 @@ public class EdibleListViewAdapter extends BaseAdapter {
             modelList.addAll(arrayList);
         }
         else{
-            for (Model model : arrayList){
+            for (ModelPrequation model : arrayList){
                 if (model.getTitle().toLowerCase(Locale.getDefault())
                         .contains(charText)){
                     modelList.add(model);

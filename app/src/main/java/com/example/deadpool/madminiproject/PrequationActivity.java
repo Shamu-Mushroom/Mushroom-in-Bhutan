@@ -12,19 +12,19 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class EdibleActivity extends AppCompatActivity {
+public class PrequationActivity extends AppCompatActivity {
 
     ListView listView;
-    EdibleListViewAdapter adapter;
+    PrequationListViewAdapter adapter;
     String[] title;
     String[] description;
     int[] icon;
-    ArrayList<Model> arrayList = new ArrayList<Model>();
+    ArrayList<ModelPrequation> arrayList = new ArrayList<ModelPrequation>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edible);
+        setContentView(R.layout.activity_prequation);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -32,18 +32,18 @@ public class EdibleActivity extends AppCompatActivity {
         //listView
         title = new String[]{"Pine Mushroom", "Lyophyllum Mushroom", "Golden Oyster", "Oyster Mushroom", "Shiitake", "Enoki", "Portabello", "Porcini", "Morel"};
         description = new String[]{"སངས་རྒྱས་ཤ་མོང།", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "རྣ་སྐྱེས་ཤ་མོང་།", "Shiitake detail...","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
-        icon = new int[]{R.drawable.pine_01, R.drawable.lyophyllum_1, R.drawable.goyester_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
+        icon = new int[]{R.drawable.pine_01, R.drawable.lyophyllum_1, R.drawable.oyster_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
 
         listView = findViewById(R.id.listView);
 
         for (int i =0; i<title.length; i++){
-            Model model = new Model(title[i], description[i], icon[i]);
+            ModelPrequation model = new ModelPrequation(title[i], description[i], icon[i]);
             //bind all strings in an array
             arrayList.add(model);
         }
 
         //pass results to listViewAdapter class
-        adapter = new EdibleListViewAdapter(this, arrayList);
+        adapter = new PrequationListViewAdapter(this, arrayList);
 
         //bind the adapter to the listview
         listView.setAdapter(adapter);
@@ -51,6 +51,7 @@ public class EdibleActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
