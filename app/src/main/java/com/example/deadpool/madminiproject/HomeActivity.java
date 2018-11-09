@@ -59,7 +59,6 @@ public class HomeActivity extends AppCompatActivity
         home_madeM.setOnClickListener(this);
         factsM.setOnClickListener(this);
 
-
     }
 
     @Override
@@ -111,6 +110,8 @@ public class HomeActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_gallery) {
             Intent intent = new Intent(getApplicationContext(), HomemadeActivity.class);
             startActivity(intent);
