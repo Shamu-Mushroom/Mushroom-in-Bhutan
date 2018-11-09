@@ -9,16 +9,16 @@ import android.widget.Toolbar;
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;
 
-public class OysterActivity extends AppCompatActivity {
+public class PhallusActivity extends AppCompatActivity {
 
     CarouselView carouselView;
 
-    int[] sampleImages = {R.drawable.oyster_1, R.drawable.oyster_2, R.drawable.oyster_3};
+    int[] sampleImages = {R.drawable.phallus_1, R.drawable.oyster_2, R.drawable.oyster_3,};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_oyster);
+        setContentView(R.layout.activity_phallus);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         TextView mTitle = (TextView) findViewById(R.id.toolbarTitle);
@@ -28,7 +28,6 @@ public class OysterActivity extends AppCompatActivity {
 
         carouselView.setImageListener(imageListener);
     }
-
     ImageListener imageListener = new ImageListener() {
         @Override
         public void setImageForPosition(int position, ImageView imageView) {

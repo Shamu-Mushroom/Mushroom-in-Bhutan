@@ -30,9 +30,9 @@ public class PrequationActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //listView
-        title = new String[]{"Pine Mushroom", "Lyophyllum Mushroom", "Golden Oyster", "Oyster Mushroom", "Shiitake", "Enoki", "Portabello", "Porcini", "Morel"};
-        description = new String[]{"སངས་རྒྱས་ཤ་མོང།", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "རྣ་སྐྱེས་ཤ་མོང་།", "Shiitake detail...","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
-        icon = new int[]{R.drawable.pine_01, R.drawable.lyophyllum_1, R.drawable.oyster_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
+        title = new String[]{"Phallus Impudicus", "Lyophyllum Mushroom", "Golden Oyster", "Oyster Mushroom", "Shiitake", "Enoki", "Portabello", "Porcini", "Morel"};
+        description = new String[]{"Stink Horn", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "རྣ་སྐྱེས་ཤ་མོང་།", "Shiitake detail...","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
+        icon = new int[]{R.drawable.phallus_1, R.drawable.lyophyllum_1, R.drawable.oyster_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
 
         listView = findViewById(R.id.listView);
 

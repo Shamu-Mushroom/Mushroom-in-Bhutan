@@ -77,9 +77,9 @@ public class PrequationListViewAdapter extends BaseAdapter {
             @Override
             public void onClick(View view) {
                 //code later
-                if (modelList.get(postition).getTitle().equals("Pine Mushroom")){
+                if (modelList.get(postition).getTitle().equals("Phallus Impudicus")){
                     //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, PineActivity.class);
+                    Intent intent = new Intent(mContext, PhallusActivity.class);
                    // intent.putExtra("actionBarTitle", "Pine Mushroom");
                     mContext.startActivity(intent);
                 }
