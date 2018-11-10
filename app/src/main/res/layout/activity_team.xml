@@ -67,7 +67,7 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/cstlogo"
+                                android:src="@drawable/dawa"
                                 android:layout_marginLeft="20dp"/>
 
                             <LinearLayout
@@ -110,7 +110,7 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/cstlogo"
+                                android:src="@drawable/pemaloday"
                                 android:layout_marginLeft="20dp"/>
 
                             <LinearLayout
@@ -157,7 +157,7 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/cstlogo"
+                                android:src="@drawable/gyeltshen"
                                 android:layout_marginLeft="20dp"/>
 
                             <LinearLayout
@@ -199,7 +199,7 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/cstlogo"
+                                android:src="@drawable/labs"
                                 android:layout_marginLeft="20dp"/>
 
                             <LinearLayout
@@ -259,7 +259,7 @@
                             <ImageView
                                 android:layout_width="90dp"
                                 android:layout_height="90dp"
-                                android:src="@drawable/cstlogo"
+                                android:src="@drawable/kar"
                                 android:layout_marginLeft="20dp"/>
 
                             <LinearLayout

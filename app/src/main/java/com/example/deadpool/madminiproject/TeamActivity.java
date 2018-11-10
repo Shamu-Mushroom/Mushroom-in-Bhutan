@@ -30,6 +30,7 @@ public class TeamActivity extends AppCompatActivity implements View.OnClickListe
         //adding onclickListener to Card
         dawa.setOnClickListener(this);
         pema.setOnClickListener(this);
+        tshering.setOnClickListener(this);
         karma.setOnClickListener(this);
         kwang.setOnClickListener(this);
     }

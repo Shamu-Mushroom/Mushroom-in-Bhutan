@@ -7,7 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".DawaActivity">
+    tools:context=".TsheringActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@
                             android:layout_height="wrap_content"
                             android:paddingRight="10dp"
                             android:paddingLeft="20dp"
-                            android:text="My name is Karma Tashi; I’m a lifelong programmer, game developer, and web-developer, and as of 2009, a parent as well. I live in Phuentsholing, Chhukha."
+                            android:text="My name is Tshering Gyeltshen; I’m a lifelong programmer, game developer, and web-developer, and as of 2009, a parent as well. I live in Phuentsholing, Chhukha."
                             android:textSize="16dp"
                             android:padding="5dp"/>
                     </LinearLayout>
@@ -161,7 +161,7 @@
                                     android:layout_width="50dp"
                                     android:layout_height="75dp"
                                     android:layout_margin="5dp"
-                                    android:src="@drawable/image5"/>
+                                    android:src="@drawable/gyeltshen"/>
                             </LinearLayout>
 
                         </LinearLayout>

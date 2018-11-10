@@ -43,7 +43,12 @@
         <activity android:name=".PemaActivity" />
         <activity android:name=".KarmaActivity" />
         <activity android:name=".TsheringActivity" />
-        <activity android:name=".KwangchukActivity"></activity>
+        <activity android:name=".KwangchukActivity" />
+        <activity android:name=".LycoperdonActivity" />
+        <activity android:name=".LactariuActivity" />
+        <activity android:name=".FlocossusActivity" />
+        <activity android:name=".GomphuscfActivity" />
+        <activity android:name=".AmintaActivity" />
     </application>
 
 </manifest>

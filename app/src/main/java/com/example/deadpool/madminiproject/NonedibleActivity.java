@@ -30,9 +30,9 @@ public class NonedibleActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //listView
-        title = new String[]{"Amanita", "Astraeus", "Golden Oyster", "Shiitake", "Oyster", "Enoki", "Portabello", "Porcini", "Morel"};
-        description = new String[]{"Amanita Details", "Asteaeus Details", "སི་ལི་ཤ་མོང་།", "Shiitake detail...", "རྣ་སྐྱེས་ཤ་མོང་།","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
-        icon = new int[]{R.drawable.pine, R.drawable.chantterelle, R.drawable.crimini, R.drawable.shiitake, R.drawable.oyster, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
+        title = new String[]{"Amanita", "Astraeus", "Astraeus hygrometricus ", "Enoki", "Morel"};
+        description = new String[]{"Amanita Details", "Astraeus hygrometricus ", "Shiitake detail...","Enoki detail...","Morel detail..."};
+        icon = new int[]{R.drawable.aminta_1, R.drawable.chantterelle, R.drawable.crimini, R.drawable.shiitake, R.drawable.oyster, R.drawable.enoki, R.drawable.morel};
 
         listView = findViewById(R.id.listView);
 
@@ -55,11 +55,7 @@ public class NonedibleActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Intent intent = new Intent(getApplicationContext(), DawaActivity.class);
-            startActivity(intent);
-        }
-        else if (id == R.id.action_contact){
-            Intent intent = new Intent(getApplicationContext(), PineActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
             startActivity(intent);
         }
 

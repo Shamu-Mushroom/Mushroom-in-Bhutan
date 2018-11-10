@@ -107,12 +107,6 @@ public class EdibleListViewAdapter extends BaseAdapter {
                     intent.putExtra("actionBarTitle", "Shiitake");
                     mContext.startActivity(intent);
                 }
-                else if (modelList.get(postition).getTitle().equals("Enoki")){
-                    //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
-                    //intent.putExtra("actionBarTitle", "Enoki");
-                    mContext.startActivity(intent);
-                }
                 else if (modelList.get(postition).getTitle().equals("Portabello")){
                     //start Argricus activity and title for action bar
                     Intent intent = new Intent(mContext, OysterActivity.class);
@@ -123,12 +117,6 @@ public class EdibleListViewAdapter extends BaseAdapter {
                     //start Argricus activity and title for action bar
                     Intent intent = new Intent(mContext, OysterActivity.class);
                     //intent.putExtra("actionBarTitle", "Porcini");
-                    mContext.startActivity(intent);
-                }
-                else if (modelList.get(postition).getTitle().equals("Morel")){
-                    //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
-                    //intent.putExtra("actionBarTitle", "Morel");
                     mContext.startActivity(intent);
                 }
             }

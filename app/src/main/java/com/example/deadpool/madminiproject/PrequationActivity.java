@@ -30,9 +30,9 @@ public class PrequationActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //listView
-        title = new String[]{"Phallus Impudicus", "Lyophyllum Mushroom", "Golden Oyster", "Oyster Mushroom", "Shiitake", "Enoki", "Portabello", "Porcini", "Morel"};
-        description = new String[]{"Stink Horn", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "རྣ་སྐྱེས་ཤ་མོང་།", "Shiitake detail...","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
-        icon = new int[]{R.drawable.phallus_1, R.drawable.lyophyllum_1, R.drawable.oyster_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
+        title = new String[]{"Phallus Impudicus", "Lycoperdon perlatum", "Gomphus Flocossus", "Lactrius piperatus", "Gomphus cf", "Morel"};
+        description = new String[]{"Stink Horn", "Puff Ball", "ཏིང་ཤ་མོང་།", "Om Shamong.", "Tai Namcho (Translation: horse ear)","Morel detail..."};
+        icon = new int[]{R.drawable.phallus_1, R.drawable.lycoperdon_1, R.drawable.gomphuscf_1, R.drawable.lactarius_1,R.drawable.shiitake, R.drawable.morel};
 
         listView = findViewById(R.id.listView);
 
@@ -56,11 +56,7 @@ public class PrequationActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Intent intent = new Intent(getApplicationContext(), DawaActivity.class);
-            startActivity(intent);
-        }
-        else if (id == R.id.action_contact){
-            Intent intent = new Intent(getApplicationContext(), PineActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
             startActivity(intent);
         }
 

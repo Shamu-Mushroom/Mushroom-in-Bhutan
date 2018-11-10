@@ -36,7 +36,7 @@ public class FactsActivity extends AppCompatActivity {
 
     public void populateRecyclerView() {
 
-        ModelFeed modelFeed = new ModelFeed(1,R.drawable.cstlogo_small, R.drawable.yatsa_boob, "Magic Mushroom in Bhutan",
+        ModelFeed modelFeed = new ModelFeed(1,R.drawable.bbs, R.drawable.yatsa_boob, "Magic Mushroom in Bhutan",
                 "Whatever it is – animal, vegetable or mineral – the fungus known scientifically as “Cordyceps Sinensis” and " +
                         "colloquially as yatsa gunbu, or “winter worm, summer grass”, has revolutionised the economy on the " +
                         "Tibetan plateau, where for about a decade now there’s been a crazy rush every summer to get up to the high" +
@@ -46,7 +46,7 @@ public class FactsActivity extends AppCompatActivity {
                         " Hong Kong.","10/11/2018");
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(2, R.drawable.ic_propic2,0, "Girl dies after eating poisonous mushrooms.",
+        modelFeed = new ModelFeed(2, R.drawable.kuensel,0, "Girl dies after eating poisonous mushrooms.",
                 "Accident: A 12-year-old girl from Gomdar in Samdrup Jongkhar died yesterday after consuming mushroom they " +
                         "had picked in the forest on April 16. Her mother and grandmother had also consumed the mushroom. Medical " +
                         "officials were able to save the two. The girl complained of a headache and started vomiting the next day " +
@@ -63,7 +63,7 @@ public class FactsActivity extends AppCompatActivity {
                 );
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(3, R.drawable.ic_propic3, R.drawable.karma_penjor,"Locals in Paro pick up Mushroom",
+        modelFeed = new ModelFeed(3, R.drawable.rnr, R.drawable.karma_penjor,"Locals in Paro pick up Mushroom",
                 "Mushrooms, to some extent, are a dangerous delicacy.  People have died for a good mushroom meal; some after " +
                         "consuming poisonous wild mushrooms and some from wild animals attack while mushroom-hunting.\n" +
                         "The best solution, some have thought, is to grow mushrooms at home.\n"+"Karma Penjor started mushroom " +
@@ -81,7 +81,7 @@ public class FactsActivity extends AppCompatActivity {
                 "May 19, 2016");
         modelFeedArrayList.add(modelFeed);
 
-        modelFeed = new ModelFeed(1,R.drawable.ic_propic1, 0, "Three in hospital after consuming poisonous" +
+        modelFeed = new ModelFeed(1,R.drawable.kuensel, 0, "Three in hospital after consuming poisonous" +
                 " mushrooms",
                 "Food poisoning: Three people are undergoing treatment at the national referral hospital in Thimphu after consuming poisonous mushroom.\n" +
                         "Five people of the nine who were on their way to Thimphu from Paro roasted wild mushrooms for lunch at Tsaluna in Thimphu at around 2:30pm on July 19.\n" +
@@ -95,5 +95,4 @@ public class FactsActivity extends AppCompatActivity {
 
         adapterFeed.notifyDataSetChanged();
     }
-
 }

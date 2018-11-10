@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check edible mjushroom"
+                    android:text="Check edible mushroom"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -169,7 +169,7 @@
                     android:layout_height="60dp"
                     android:background="@drawable/cerclebackgroundyello"
                     android:padding="10dp"
-                    android:src="@drawable/ic_android_black_24dp" />
+                    android:src="@drawable/ic_store" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -221,7 +221,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/cerclebackgroundpurple"
-                    android:src="@drawable/ic_android_black_24dp"
+                    android:src="@drawable/ic_lightbulb"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"

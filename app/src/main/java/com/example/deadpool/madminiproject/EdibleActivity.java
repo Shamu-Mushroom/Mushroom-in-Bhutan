@@ -30,9 +30,9 @@ public class EdibleActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //listView
-        title = new String[]{"Pine Mushroom", "Lyophyllum Mushroom", "Golden Oyster", "Oyster Mushroom", "Shiitake", "Enoki", "Portabello", "Porcini", "Morel"};
-        description = new String[]{"སངས་རྒྱས་ཤ་མོང།", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "རྣ་སྐྱེས་ཤ་མོང་།", "Shiitake detail...","Enoki detail...","Portabello detail...","Porcini detail...","Morel detail..."};
-        icon = new int[]{R.drawable.pine_01, R.drawable.lyophyllum_1, R.drawable.goyester_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.enoki, R.drawable.portabello, R.drawable.porcini, R.drawable.morel};
+        title = new String[]{"Pine Mushroom", "Lyophyllum Mushroom", "Golden Oyster", "Oyster Mushroom", "Shiitake", "Portabello", "Porcini"};
+        description = new String[]{"སངས་རྒྱས་ཤ་མོང།", "བྱིས་ཤིང་རུ་རུ།", "སི་ལི་ཤ་མོང་།", "རྣ་སྐྱེས་ཤ་མོང་།", "Shiitake detail...","Portabello detail...","Porcini detail..."};
+        icon = new int[]{R.drawable.pine_01, R.drawable.lyophyllum_1, R.drawable.goyester_1, R.drawable.oyster_1,R.drawable.shiitake, R.drawable.portabello, R.drawable.porcini};
 
         listView = findViewById(R.id.listView);
 
@@ -55,14 +55,9 @@ public class EdibleActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
-            Intent intent = new Intent(getApplicationContext(), DawaActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
             startActivity(intent);
         }
-        else if (id == R.id.action_contact){
-            Intent intent = new Intent(getApplicationContext(), PineActivity.class);
-            startActivity(intent);
-        }
-
         return super.onOptionsItemSelected(item);
     }
 

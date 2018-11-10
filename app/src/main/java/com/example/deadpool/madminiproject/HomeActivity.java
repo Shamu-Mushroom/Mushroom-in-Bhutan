@@ -110,18 +110,18 @@ public class HomeActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-            Intent intent = new Intent(getApplicationContext(), TeamActivity.class);
+            Intent intent = new Intent(getApplicationContext(), EdibleActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_gallery) {
-            Intent intent = new Intent(getApplicationContext(), HomemadeActivity.class);
+            Intent intent = new Intent(getApplicationContext(), NonedibleActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_help_info) {
-            Intent intent = new Intent(HomeActivity.this, OysterActivity.class);
+            Intent intent = new Intent(HomeActivity.this, PrequationActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_manage) {
-            Intent intent = new Intent(getApplicationContext(), OysterActivity.class);
+            Intent intent = new Intent(getApplicationContext(), HomushroomActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_share) {

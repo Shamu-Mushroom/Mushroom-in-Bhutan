@@ -161,7 +161,7 @@
                                     android:layout_width="50dp"
                                     android:layout_height="75dp"
                                     android:layout_margin="5dp"
-                                    android:src="@drawable/image5"/>
+                                    android:src="@drawable/kar"/>
                             </LinearLayout>
 
                         </LinearLayout>
@@ -240,7 +240,7 @@
                             android:layout_height="wrap_content"
                             android:paddingRight="10dp"
                             android:paddingLeft="20dp"
-                            android:text="Email: dawanyuethyuetshering111@gmail.com\nPhone: +975-17980893"
+                            android:text="Email: karmawangchuk@gmail.com\nPhone: +975-17980893"
                             android:textSize="16dp"
                             android:layout_marginBottom="20dp"/>
                     </LinearLayout>

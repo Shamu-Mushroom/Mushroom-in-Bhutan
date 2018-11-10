@@ -83,46 +83,28 @@ public class PrequationListViewAdapter extends BaseAdapter {
                    // intent.putExtra("actionBarTitle", "Pine Mushroom");
                     mContext.startActivity(intent);
                 }
-                else if (modelList.get(postition).getTitle().equals("Lyophyllum Mushroom")){
+                else if (modelList.get(postition).getTitle().equals("Lycoperdon perlatum")){
                     //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, LyophyllumActivity.class);
+                    Intent intent = new Intent(mContext, LycoperdonActivity.class);
                     //intent.putExtra("actionBarTitle", "Chanterelle");
                     mContext.startActivity(intent);
                 }
-                else if (modelList.get(postition).getTitle().equals("Golden Oyster")){
+                else if (modelList.get(postition).getTitle().equals("Gomphus Flocossus")){
                     //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, GoldenoysterActivity.class);
+                    Intent intent = new Intent(mContext, FlocossusActivity.class);
                     //intent.putExtra("actionBarTitle", "Golden Oyster Mushroom");
                     mContext.startActivity(intent);
                 }
-                else if (modelList.get(postition).getTitle().equals("Oyster Mushroom")){
+                else if (modelList.get(postition).getTitle().equals("Lactrius piperatus")){
                     //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
+                    Intent intent = new Intent(mContext, LactariuActivity.class);
                     //intent.putExtra("actionBarTitle", "Oyster Mushroom");
                     mContext.startActivity(intent);
                 }
-                else if (modelList.get(postition).getTitle().equals("Shiitake")){
+                else if (modelList.get(postition).getTitle().equals("Gomphus cf")){
                     //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
-                    intent.putExtra("actionBarTitle", "Shiitake");
-                    mContext.startActivity(intent);
-                }
-                else if (modelList.get(postition).getTitle().equals("Enoki")){
-                    //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
-                    //intent.putExtra("actionBarTitle", "Enoki");
-                    mContext.startActivity(intent);
-                }
-                else if (modelList.get(postition).getTitle().equals("Portabello")){
-                    //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
-                    //intent.putExtra("actionBarTitle", "Portabello");
-                    mContext.startActivity(intent);
-                }
-                if (modelList.get(postition).getTitle().equals("Porcini")){
-                    //start Argricus activity and title for action bar
-                    Intent intent = new Intent(mContext, OysterActivity.class);
-                    //intent.putExtra("actionBarTitle", "Porcini");
+                    Intent intent = new Intent(mContext, GomphuscfActivity.class);
+                   // intent.putExtra("actionBarTitle", "Shiitake");
                     mContext.startActivity(intent);
                 }
                 else if (modelList.get(postition).getTitle().equals("Morel")){

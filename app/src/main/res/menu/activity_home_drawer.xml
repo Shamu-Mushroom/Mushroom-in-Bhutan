@@ -7,20 +7,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:icon="@drawable/ic_done"
+            android:title="Edible Mushroom" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="FAQ" />
+            android:icon="@drawable/ic_danger"
+            android:title="Non-edible Mushroom" />
         <item
             android:id="@+id/nav_help_info"
-            android:icon="@drawable/ic_help"
-            android:title="Help and info" />
+            android:icon="@drawable/ic_warning"
+            android:title="Precaution" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/settings"
-            android:title="Settings" />
+            android:icon="@drawable/ic_store"
+            android:title="Home Mushroom" />
     </group>
 
     <item android:title="Communicate">

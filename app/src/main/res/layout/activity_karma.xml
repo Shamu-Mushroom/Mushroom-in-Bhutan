@@ -161,7 +161,7 @@
                                     android:layout_width="50dp"
                                     android:layout_height="75dp"
                                     android:layout_margin="5dp"
-                                    android:src="@drawable/image5"/>
+                                    android:src="@drawable/labs"/>
                             </LinearLayout>
 
                         </LinearLayout>
